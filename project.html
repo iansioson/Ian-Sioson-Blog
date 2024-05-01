@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Sioson - Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header-project">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>    
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>My Projects</h1>
+    </section>
+
+<!-- Project -->
+<section class ="project" >
+    <h1>GITHUB LINKS BELOW</h1>
+    <p>Projects that I made and collaborated with</p>
+
+      <div class="row">
+          <div class="project-col1">
+            <h3>An Explorer's Tale</h3>
+               <p>RPG text-based game project made entirely of JAVA.</p>
+               <a href="" class="hero-btn red-btn">GITHUB LINK</a>
+              </div>
+
+          <div class="project-col2">
+            <h3>Project #2</h3>
+               <p>?.</p>
+               <a href="" class="hero-btn red-btn">GITHUB LINK</a>
+             </div>
+
+          <div class="project-col3">
+            <h3>Project #3</h3>
+               <p>?.</p>
+               <a href="" class="hero-btn red-btn">GITHUB LINK</a>
+              </div>
+  </section>
+
+    <section class="footer">
+        
+        <p>Dedicated Software Engineer pushing the boundaries of computing through cutting-edge projects and initiatives.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+</div>
+<p>Made by <i class="fa fa-heart-o">Kristoffer Ian Sioson</p>
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+
+
+    </script>
+
+</body>
+</html>
